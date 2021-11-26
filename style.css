@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  width: 960px;
+  margin: 0 auto;
+  list-style: none;
+  padding: 50px 0;
+}
+li {
+  padding: 20px;
+}
+li:nth-child(odd) {
+  background-color: gray;
+}
+main {
+  width: 960px;
+  margin: 0 auto 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+div {
+  width: 30%;
+  height: 200px;
+  background-color: yellow;
+  margin-bottom: 40px;
+}
+.orange {
+  background-color: orange;
+}
